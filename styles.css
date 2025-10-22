@@ -16,6 +16,15 @@ header nav a {
     text-decoration: none;
 }
 
+.about-photo {
+    width: 80px;         /* Reduced from 120px */
+    height: 80px;        /* Reduced from 120px */
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #0073e6;
+}
+
+
 .card {
     background: #fff;
     padding: 20px;
@@ -83,3 +92,4 @@ footer {
     margin-top: 40px;
     padding: 10px;
 }
+
